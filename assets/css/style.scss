@@ -78,7 +78,7 @@ body {
 // Banners init
 @mixin banner() {
 	width: 100%;
-	height: 100px;
+	height: 80px;
 	line-height: 100px;
 	background-color: white;
 	position: absolute;
@@ -110,7 +110,7 @@ body {
 .banner-down {
 	@include banner();
 	bottom: 0px;
-	word-spacing: 30px;
+	word-spacing: 10px;
 }
 
 

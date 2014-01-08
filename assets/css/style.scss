@@ -1,0 +1,169 @@
+@import url("http://fonts.googleapis.com/css?family=Lato");
+@import url("http://fonts.googleapis.com/css?family=Oswald:400");
+
+@mixin font($size) {
+	font-family: 'Oswald', sans-serif;
+	font-size: $size;
+	color: white;
+}
+
+@mixin grayscale($value) {
+    -webkit-filter: grayscale($value);
+    -moz-filter: grayscale($value);
+    filter: grayscale($value);
+}
+
+body {
+
+}
+
+.content {
+	min-height: 500px;
+	box-sizing: border-box;
+	background-image: url("worker.jpg");
+	background-repeat: no-repeat;
+	background-position: center, center;
+	background-size: 100%;
+	margin-left: -10px;
+
+}
+
+.msg {
+	position: absolute;
+	top: 400px;
+	left: 50%;
+	@include font(50px);
+}
+
+.painel {
+	background-color: white;
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	opacity: 0.8;
+
+}
+
+/*
+// Text Main init
+.textMain {
+	background-color: white;
+	position: absolute;
+	left: 50%;
+	top: 120px;
+	width: 290px;
+	height: 290px;
+	border-radius: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+	opacity: 0.95;
+}
+
+.textMain p {
+		text-align: center;
+		margin-top: 60px;
+		margin-left: 25px;
+		width: 240px;
+		height: 3800px;
+		@include font(18px);
+		font-family: sans-serif;
+		color: black;
+	}
+// Text Main end
+
+*/
+
+// Banners init
+@mixin banner() {
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	background-color: white;
+	position: absolute;
+	margin: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-top: 25px;
+	@include font(30px);
+	letter-spacing: 1px;
+	word-spacing: 30px;
+}
+
+.navbar a {
+	color: #0893cf;
+	text-decoration: none;
+}
+
+.banner-top {
+	@include banner();
+	top: 0px;
+}
+
+.banner-down {
+	@include banner();
+	bottom: 0px;
+	word-spacing: 30px;
+}
+
+
+.marks {
+	margin-left: 20px;
+	@include grayscale(100%);
+}
+
+
+// Banners end
+
+// BLocks init
+.allBlocks {
+	margin: 100px 0 0 -10px;
+}
+
+#cmykTexto {
+	margin: -100px 0 0 -300px;
+
+}
+
+/*
+
+@mixin block($color) {
+	background-color: $color;
+	width: 140px;
+	height: 110px;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	line-height: 110px;
+	position: relative;
+	@include font(20px);
+	margin: 0 0 0 -20px;
+}
+
+#qualidade {
+	@include block(cyan);
+}
+
+#eficiencia {
+	@include block(magenta);
+	margin-left: -4px;
+}
+
+#rapidez {
+	@include block(yellow);
+	width: 180px;
+}
+
+#compromisso {
+	@include block(black);
+	margin-top: 0px;
+	margin-left: -4px;
+}
+// Blocks end */

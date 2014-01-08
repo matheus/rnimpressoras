@@ -1,0 +1,77 @@
+@import url("http://fonts.googleapis.com/css?family=Lato");
+@import url("http://fonts.googleapis.com/css?family=Oswald:400");
+.content {
+  min-height: 500px;
+  box-sizing: border-box;
+  background-image: url("worker.jpg");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: 100%;
+  margin-left: -10px; }
+
+.msg {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  color: white; }
+
+.painel {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  opacity: 0.8; }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-top: 25px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 30px; }
+
+.navbar a {
+  color: #0893cf;
+  text-decoration: none; }
+
+.banner-top {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: white;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  box-sizing: border-box;
+  top: 0px; }
+
+.banner-down {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: white;
+  position: absolute;
+  margin: 0;
+  left: 0;
+  box-sizing: border-box;
+  bottom: 0px;
+  word-spacing: 30px; }
+
+.marks {
+  margin-left: 20px;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.allBlocks {
+  margin: 100px 0 0 -10px; }
+
+#cmykTexto {
+  margin: -100px 0 0 -300px; }

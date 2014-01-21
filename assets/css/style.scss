@@ -20,7 +20,7 @@ body {
 .content {
 	min-height: 500px;
 	box-sizing: border-box;
-	background-image: url("worker.jpg");
+	background-image: url("principal.jpg");
 	background-repeat: no-repeat;
 	background-position: center, center;
 	background-size: 100%;
@@ -46,34 +46,6 @@ body {
 
 }
 
-/*
-// Text Main init
-.textMain {
-	background-color: white;
-	position: absolute;
-	left: 50%;
-	top: 120px;
-	width: 290px;
-	height: 290px;
-	border-radius: 100%;
-	vertical-align: middle;
-	overflow: hidden;
-	opacity: 0.95;
-}
-
-.textMain p {
-		text-align: center;
-		margin-top: 60px;
-		margin-left: 25px;
-		width: 240px;
-		height: 3800px;
-		@include font(18px);
-		font-family: sans-serif;
-		color: black;
-	}
-// Text Main end
-
-*/
 
 // Banners init
 @mixin banner() {
@@ -118,8 +90,6 @@ body {
 	margin-left: 20px;
 	@include grayscale(100%);
 }
-
-
 // Banners end
 
 // BLocks init
@@ -131,39 +101,3 @@ body {
 	margin: -100px 0 0 -300px;
 
 }
-
-/*
-
-@mixin block($color) {
-	background-color: $color;
-	width: 140px;
-	height: 110px;
-	display: inline-block;
-	padding: 10px;
-	text-align: center;
-	line-height: 110px;
-	position: relative;
-	@include font(20px);
-	margin: 0 0 0 -20px;
-}
-
-#qualidade {
-	@include block(cyan);
-}
-
-#eficiencia {
-	@include block(magenta);
-	margin-left: -4px;
-}
-
-#rapidez {
-	@include block(yellow);
-	width: 180px;
-}
-
-#compromisso {
-	@include block(black);
-	margin-top: 0px;
-	margin-left: -4px;
-}
-// Blocks end */

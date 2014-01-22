@@ -9,6 +9,15 @@
   background-size: 100%;
   margin-left: -10px; }
 
+.servicos {
+  min-height: 500px;
+  box-sizing: border-box;
+  background-image: url("servicos.jpg");
+  background-repeat: no-repeat;
+  background-position: center, center;
+  background-size: 100%;
+  margin-left: -10px; }
+
 .texto {
   font-family: 'Oswald', sans-serif;
   font-size: 32px;
@@ -20,6 +29,21 @@
   line-height: 20px;
   text-align: right;
   text-shadow: black 0 -2px;
+  box-sizing: border-box; }
+
+#servicos {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  color: white;
+  font-family: sans-serif;
+  color: black;
+  text-shadow: black 0 0px;
+  right: 5%;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  line-height: 40px;
+  text-align: right;
   box-sizing: border-box; }
 
 .texto a {

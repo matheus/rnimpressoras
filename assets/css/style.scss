@@ -24,6 +24,24 @@
 
 }
 
+.texto {
+	@include font(32px);
+	right: 5%;
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	line-height: 20px;
+	text-align: right;
+	text-shadow: black 0 -2px;
+	box-sizing: border-box;
+
+}
+
+.texto a {
+	text-decoration: none;
+	color: white;
+	margin-right: 50px;
+}
 
 // Banners init
 @mixin banner() {

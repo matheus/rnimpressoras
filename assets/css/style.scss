@@ -13,10 +13,6 @@
     filter: grayscale($value);
 }
 
-body {
-
-}
-
 .content {
 	min-height: 500px;
 	box-sizing: border-box;
@@ -28,30 +24,12 @@ body {
 
 }
 
-.msg {
-	position: absolute;
-	top: 400px;
-	left: 50%;
-	@include font(50px);
-}
-
-.painel {
-	background-color: white;
-	width: 400px;
-	height: 500px;
-	position: absolute;
-	top: 100px;
-	left: 50%;
-	opacity: 0.8;
-
-}
-
 
 // Banners init
 @mixin banner() {
 	width: 100%;
-	height: 80px;
-	line-height: 100px;
+	height: 110px;
+	line-height: 110px;
 	background-color: white;
 	position: absolute;
 	margin: 0;
@@ -62,7 +40,7 @@ body {
 .navbar {
 	position: absolute;
 	top: 0;
-	left: 50%;
+	right: 10%;
 	margin-top: 25px;
 	@include font(30px);
 	letter-spacing: 1px;
@@ -89,15 +67,16 @@ body {
 .marks {
 	margin-left: 20px;
 	@include grayscale(100%);
+	text-align: center;
 }
 // Banners end
 
 // BLocks init
 .allBlocks {
-	margin: 100px 0 0 -10px;
+	margin: 110px 0 0 -10px;
 }
 
 #cmykTexto {
-	margin: -100px 0 0 -300px;
+	margin: -110px 0 0 -300px;
 
 }

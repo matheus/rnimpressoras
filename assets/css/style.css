@@ -24,8 +24,11 @@
 
 .texto a {
   text-decoration: none;
-  color: white;
-  margin-right: 50px; }
+  color: white; }
+
+.texto a:hover {
+  text-decoration: none;
+  color: #1cc924; }
 
 .navbar {
   position: absolute;
@@ -40,6 +43,10 @@
 
 .navbar a {
   color: #0893cf;
+  text-decoration: none; }
+
+.navbar a:hover {
+  color: #1cc924;
   text-decoration: none; }
 
 .banner-top {

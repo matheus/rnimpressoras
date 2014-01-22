@@ -40,8 +40,13 @@
 .texto a {
 	text-decoration: none;
 	color: white;
-	margin-right: 50px;
 }
+
+.texto a:hover {
+	text-decoration: none;
+	color: #1cc924;
+}
+
 
 // Banners init
 @mixin banner() {
@@ -67,6 +72,11 @@
 
 .navbar a {
 	color: #0893cf;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #1cc924;
 	text-decoration: none;
 }
 
